@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/swipe"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="100dp">
+
+    <ListView android:id="@+id/listVisitados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#ECECEC"
+        android:dividerHeight="1sp"
+        android:fillViewport="true"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/atualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_rotate"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"/>
+
+</RelativeLayout>

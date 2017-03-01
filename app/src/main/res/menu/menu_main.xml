@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/delete_id"
+        android:title="Deletar Itens"
+        app:showAsAction="always"
+        android:visible="true"
+        android:icon="@android:drawable/ic_menu_delete" />
+
+</menu>
